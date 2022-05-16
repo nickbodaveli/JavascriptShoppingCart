@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container > div {
+    width:300px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.output-div {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.output > div {
+    width:300px;
+    background-color: aquamarine;
+    padding: 20px;
+}

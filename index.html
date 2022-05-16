@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="cartstorage.html">
+        <h1 id="cartstorage"></h1>
+    </a>
+
+    <div class="container">
+        <div class="list">
+            <h3 id="id">1</h3>
+            <h4 id="name">Product 1</h4>
+            <h4 id="price">5</h4>
+            <input type="hidden" id="quantity" value="1">
+            <button type="submit" class="btncart" id="btncart">ADD TO CART 1</button>
+        </div>
+
+        <div class="list">
+            <h3 id="id">2</h3>
+            <h4 id="name">Product 2</h4>
+            <h4 id="price">10</h4>
+            <input type="hidden" id="quantity" value="1">
+            <button type="submit" class="btncart" id="btncart">ADD TO CART 2</button>
+        </div>
+
+        <div class="list">
+            <h3 id="id">3</h3>
+            <h4 id="name">Product 3</h4>
+            <h4 id="price">20</h4>
+            <input type="hidden" id="quantity" value="1">
+            <button type="submit" class="btncart" id="btncart">ADD TO CART 3</button>
+        </div>
+
+        <div class="list">
+            <h3 id="id">4</h3>
+            <h4 id="name">Product 4</h4>
+            <h4 id="price">30</h4>
+            <input type="hidden" id="quantity" value="1">
+            <button type="submit" class="btncart" id="btncart">ADD TO CART 4</button>
+        </div>
+    </div>
+
+    Id <input type="number" id="id_num" style="margin-top: 50px;" />
+    <p id="output" style="font-size:30px; color:rgb(24, 10, 233)"></p>
+    <div class="output-div"></div>
+    <button class="btnshow">SHOW SINGLE</button>
+    <button class="btnshowall">SHOW ALL</button>
+    <script src="App.js"></script>
+</body>
+</html>
